@@ -69,7 +69,7 @@ def sudoku_solver_backtracking(table):
                 return False
     print("Sudoku not valid. no solution exists =(")
 
-
+#default puzzle to solve
 ar = [[4, 0, 0, 3, 0, 7, 0, 0, 6],
       [0, 3, 0, 4, 0, 5, 0, 0, 0],
       [0, 0, 0, 9, 0, 0, 0, 4, 0],
